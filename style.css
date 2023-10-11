@@ -153,7 +153,8 @@ background-color: var(--cor-secundaria);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 22px;
+        font-family: Pirata One;
     }
     footer
     {
@@ -234,6 +235,9 @@ background-color: var(--cor-secundaria);
         text-align: center;
         font-size: 17px;
     }
+ #carouselExampleCaptions{
+     display: none;
+ }
 
 @media (min-width: 1280px){
     
@@ -269,6 +273,40 @@ background-color: var(--cor-secundaria);
     {
         display: none;
     }
+    #carouselExample
+    {
+        height: 1000px;
+    }
+    .alinhar
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .carousel-inner
+    {
+        height: 800px; 
+    }
+    .carousel-item
+    {
+        height: 800px;
+    }
+    .carousel-item img
+    {
+        height: 800px;
+    }
+    .carousel-control-prev
+    {
+        background-color: transparent;
+    }
+    .carousel-control-next
+    {
+        background-color: transparent;
+    }
+    h5
+    {
+        font-size: 35px;
+    }
     h1
     {
         font-family: Pirata One;
@@ -288,19 +326,18 @@ background-color: var(--cor-secundaria);
     }
     .espacamento
     {
-        padding-left: 150px;
+        
     }
     .espacamento2
     {
         width: 390px;
-        margin-left: 200px;
-        padding-left: 10px;
+        
     }
     .espacamento3
     {
-       display: flex;
-       justify-content: flex-start;
-       margin-left: 200px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 23px;
     }
     p
     {
@@ -320,6 +357,7 @@ background-color: var(--cor-secundaria);
         justify-content: center;
         align-items: center;
         font-size: 30px;
+        font-family: Pirata One;
     }
     footer
     {
@@ -402,7 +440,11 @@ background-color: var(--cor-secundaria);
 .login
 {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 152px;
+    justify-content: center;
+    
+}
+
+#carouselExampleCaptions{
+    display: block;
 }
 }
